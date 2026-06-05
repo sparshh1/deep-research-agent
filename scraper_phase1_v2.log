@@ -1,0 +1,35 @@
+2026-06-04 17:10:27,642  INFO      ============================================================
+2026-06-04 17:10:27,643  INFO      arXiv scraper  —  Agentic Deep Research corpus
+2026-06-04 17:10:27,643  INFO      Target papers : 300
+2026-06-04 17:10:27,643  INFO      Date range    : 20240101 → 20260430
+2026-06-04 17:10:27,643  INFO      Categories    : cs.CL, cs.AI, cs.LG
+2026-06-04 17:10:27,643  INFO      Skip PDFs     : True
+2026-06-04 17:10:27,643  INFO      Resume mode   : False
+2026-06-04 17:10:27,643  INFO      ============================================================
+2026-06-04 17:10:27,643  INFO      
+── Phase 1: Fetching metadata from arXiv API ──
+2026-06-04 17:10:27,643  INFO      Built 3 queries (one per category)
+2026-06-04 17:10:27,643  INFO      
+Query 1/3: cat:cs.CL AND submittedDate:[202401010000 TO 202604302359]
+2026-06-04 17:10:27,643  INFO      Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=cat%3Acs.CL+AND+submittedDate%3A%5B202401010000+TO+202604302359%5D&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2026-06-04 17:10:28,389  INFO      Sleeping: 2.999943 seconds
+2026-06-04 17:10:31,391  INFO      Requesting page (first: True, try: 1): https://export.arxiv.org/api/query?search_query=cat%3Acs.CL+AND+submittedDate%3A%5B202401010000+TO+202604302359%5D&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2026-06-04 17:10:47,146  INFO      Sleeping: 2.999938 seconds
+2026-06-04 17:10:50,153  INFO      Requesting page (first: True, try: 2): https://export.arxiv.org/api/query?search_query=cat%3Acs.CL+AND+submittedDate%3A%5B202401010000+TO+202604302359%5D&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2026-06-04 17:10:50,533  INFO      Sleeping: 2.999958 seconds
+2026-06-04 17:10:53,538  INFO      Requesting page (first: True, try: 3): https://export.arxiv.org/api/query?search_query=cat%3Acs.CL+AND+submittedDate%3A%5B202401010000+TO+202604302359%5D&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2026-06-04 17:11:39,860  ERROR     Error querying arXiv for 'cat:cs.CL AND submittedDate:[202401010000 TO 202604302359]': Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.CL+AND+submittedDate%3A%5B202401010000+TO+202604302359%5D&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+2026-06-04 17:11:39,860  INFO      
+Query 2/3: cat:cs.AI AND submittedDate:[202401010000 TO 202604302359]
+2026-06-04 17:11:39,861  INFO      Sleeping: 2.998571 seconds
+2026-06-04 17:11:42,865  INFO      Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=cat%3Acs.AI+AND+submittedDate%3A%5B202401010000+TO+202604302359%5D&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2026-06-04 17:11:58,569  INFO      Sleeping: 2.999954 seconds
+2026-06-04 17:12:01,574  INFO      Requesting page (first: True, try: 1): https://export.arxiv.org/api/query?search_query=cat%3Acs.AI+AND+submittedDate%3A%5B202401010000+TO+202604302359%5D&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2026-06-04 17:12:02,253  INFO      Sleeping: 2.999965 seconds
+2026-06-04 17:12:05,257  INFO      Requesting page (first: True, try: 2): https://export.arxiv.org/api/query?search_query=cat%3Acs.AI+AND+submittedDate%3A%5B202401010000+TO+202604302359%5D&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2026-06-04 17:12:36,648  INFO      Sleeping: 2.999832 seconds
+2026-06-04 17:12:39,654  INFO      Requesting page (first: True, try: 3): https://export.arxiv.org/api/query?search_query=cat%3Acs.AI+AND+submittedDate%3A%5B202401010000+TO+202604302359%5D&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2026-06-04 17:12:55,338  ERROR     Error querying arXiv for 'cat:cs.AI AND submittedDate:[202401010000 TO 202604302359]': Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.AI+AND+submittedDate%3A%5B202401010000+TO+202604302359%5D&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+2026-06-04 17:12:55,341  INFO      
+Query 3/3: cat:cs.LG AND submittedDate:[202401010000 TO 202604302359]
+2026-06-04 17:12:55,341  INFO      Sleeping: 2.996623 seconds

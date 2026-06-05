@@ -1,0 +1,30 @@
+{"id": "q1", "question": "What is the primary function of the Reflexion framework in agentic reasoning?"}
+{"id": "q2", "question": "How does Toolformer integrate API calls into language model generation?"}
+{"id": "q3", "question": "Compare the memory retrieval mechanisms of MemGPT and Generative Agents."}
+{"id": "q4", "question": "What are the primary failure modes of autonomous agents in web navigation tasks?"}
+{"id": "q5", "question": "Which reinforcement learning techniques do modern web agents use to optimize search trajectories?"}
+{"id": "q6", "question": "Contrast the planning strategies of standard ReAct with Tree of Thoughts (ToT)."}
+{"id": "q7", "question": "What is the defining characteristic of the DSPy framework for compiling LLM agents?"}
+{"id": "q8", "question": "Summarize the current limitations of LLM agents in multi-step coding benchmarks like SWE-bench."}
+{"id": "q9", "question": "How do frameworks like AutoGPT handle continuous looping and goal decomposition?"}
+{"id": "q10", "question": "What are the trade-offs between zero-shot agent prompting and fine-tuned agentic models?"}
+{"id": "q11", "question": "Describe the core architectural components of Self-RAG."}
+{"id": "q12", "question": "What are the prevailing methods for giving LLMs long-term memory when context windows exceed 1M tokens?"}
+{"id": "q13", "question": "Compare the latency and token cost of single-agent versus multi-agent frameworks like AutoGen."}
+{"id": "q14", "question": "What is the specific role of a 'critic' model in self-correcting agent loops?"}
+{"id": "q15", "question": "How do recent papers evaluate the safety and alignment of computer-use agents?"}
+{"id": "q16", "question": "What distinguishes OS-Copilot from traditional command-line interfaces?"}
+{"id": "q17", "question": "How does the performance of agentic RAG differ from standard naive RAG in multi-hop question answering?"}
+{"id": "q18", "question": "What are the primary metrics used to score models in the AgentBench benchmark?"}
+{"id": "q19", "question": "Discuss the evolution of tool-calling capabilities from early 2024 to modern open-source models."}
+{"id": "q20", "question": "Contrast the use of vector databases versus knowledge graphs in agentic memory systems."}
+{"id": "q21", "question": "How do agents achieve open-world task completion in environments like Minecraft?"}
+{"id": "q22", "question": "What mechanism do skill-library agents use to write, verify, and refine code for future use?"}
+{"id": "q23", "question": "Compare the efficacy of standard chain-of-thought (CoT) versus plan-and-solve prompting for tool selection."}
+{"id": "q24", "question": "What are the most common architectures for multi-agent negotiation and debate?"}
+{"id": "q25", "question": "How do specialized models like Gorilla achieve high accuracy in API calling?"}
+{"id": "q26", "question": "Summarize the state of the art in GUI-navigating agents as of early 2026."}
+{"id": "q27", "question": "What is the difference between explicit external memory stores and dynamic context-window injection for agents?"}
+{"id": "q28", "question": "What exact role does environment feedback play in the execution loop of a ReAct agent?"}
+{"id": "q29", "question": "How are autonomous agents currently being utilized in automated software engineering workflows?"}
+{"id": "q30", "question": "Compare the impact of open-source versus proprietary foundational models on agent tool-use accuracy."}

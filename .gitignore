@@ -1,0 +1,13 @@
+.env
+
+.venv/
+env/
+__pycache__/
+*.pyc
+
+data/pdfs/
+data/chroma_db/
+data/parsed_text/
+*.zip
+
+.DS_Store
